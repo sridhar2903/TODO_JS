@@ -1,0 +1,240 @@
+body{
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-top: 40px;
+    background-color: black;
+}
+.add
+{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    float: right;
+    position: relative;
+    bottom: 110px;
+ 
+}
+#noitems
+{
+color: gray;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 35px;
+position: relative;
+top:30px;
+
+}
+#addblock
+{
+    margin: auto;
+ position: relative;
+ top:50px;
+    
+   
+   
+}
+#jsnew
+{
+    text-align: center;
+    background-color: white;
+    border: tomato 2px solid;
+    border-radius: 10px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: tomato;
+   
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+   
+    height: 240px;
+    width: 450px;
+   
+}
+#lol
+{
+    font-size:20px ;
+    color: tomato;
+}
+#blockdamn
+{
+   
+    position: relative;
+  
+    top:90px;
+    display: flex;
+  
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+
+}
+#divlist
+{
+ background-color: white; 
+ text-align: center;
+     height: 350px;
+    width: 230px;
+  margin-bottom: 40px;
+ 
+  
+}
+#l1
+{
+  position: relative;
+  top:40px;  
+}
+#runtimetext
+{
+    width:330px;
+    height: 40px;
+    border:tomato 2px solid;
+    border-radius: 5px;
+    position: relative;
+    top:30px;
+
+}
+#btn
+{
+    color: white;
+    background-color:tomato ;
+    width: 110px;
+    height:40px;
+    border:tomato 2px solid;
+    border-radius: 50px;
+    font-size: 28px;
+    position:relative;
+    top: 30px;
+    left:70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+}
+#btn1
+{
+   color: white;
+    background-color:tomato ;
+    width: 110px;
+    height:40px;
+    border:tomato 2px solid;
+    border-radius: 50px;
+    font-size: 28px;
+    position:relative;
+    top: 30px;
+    right:70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: right;
+  
+}
+
+/* #divlist
+{
+    font-size: 30px;
+} */
+
+#tripto
+{
+    font-size: 20px;
+}
+
+#linetrip
+{
+    width: 228px;
+}
+#ad
+{
+    position: relative;
+    top:260px;
+    left:105px;
+    font-size: 25px;
+}
+
+#dela
+{
+    position: relative;
+    top:260px;
+    left:50px;
+    font-size: 25px;
+    
+}
+
+#itemadd
+{
+    margin: auto;
+ position: relative;
+ top:50px;
+
+   
+}
+#oneitem
+{
+    display: block;
+    text-align: center;
+    background-color: white;
+    border: tomato 2px solid;
+    border-radius: 10px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: tomato;
+   
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+   
+    height: 240px;
+    width: 450px;
+   
+   
+}
+
+#nb
+{
+    color: white;
+    background-color:tomato ;
+    width: 110px;
+    height:40px;
+    border:tomato 2px solid;
+    border-radius: 50px;
+    font-size: 28px;
+    position:relative;
+    top: 30px;
+    left:70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+}
+#tb
+{
+   color: white;
+    background-color:tomato ;
+    width: 110px;
+    height:40px;
+    border:tomato 2px solid;
+    border-radius: 50px;
+    font-size: 28px;
+    position:relative;
+    top: 30px;
+    right:70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: right;
+}
+#textrun
+{
+    width:330px;
+    height: 40px;
+    border:tomato 2px solid;
+    border-radius: 5px;
+    position: relative;
+    top:30px;
+
+}
+#itemtwo
+{
+  position: relative;
+  top:40px;  
+}
+#checklist
+{
+    margin-bottom: 20px;
+    position: relative;
+    bottom:20px;
+}
