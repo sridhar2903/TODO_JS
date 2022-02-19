@@ -1,0 +1,284 @@
+body{
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-top: 40px;
+   
+}
+
+#main-right
+{
+    float: right;
+    position: relative;
+    bottom:4em;
+    font-size: 1.5em;
+    font-size: 30px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+.fa-plus-circle
+{
+    float: right;
+    position: relative;
+    bottom:2.1em;
+    right: 5.7em;
+    font-size: 1.5em;
+   
+}
+#container-card
+{
+    visibility:hidden;
+    background-color:blanchedalmond;
+    width: 25em;
+    height: 13em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    border-radius: 20px;
+    box-shadow: silver 10px 10px 15px ;
+}
+
+#addcard
+{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+#inputtext
+{
+   position: relative;
+   left: 4.5em;
+   width: 20em;
+   height: 2em;
+   text-align: center;
+}
+#submitadd
+{
+    position: relative;
+    top:3em;
+    left:2em;
+   width: 10em;
+   height: 2em;
+   border-radius: 1em;
+   background-color:indianred;
+   cursor: pointer;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+   
+}
+
+#submitclose
+{
+    position: relative;
+    top:3em;
+    right: 2em;
+    float: right;
+    width: 10em;
+    height: 2em;
+    border-radius: 1em;
+    background-color:indianred;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+   
+#allcards
+{
+    display: flex;
+     flex-wrap: wrap;
+    
+justify-content:space-around;
+
+}
+#childcards
+{
+    background-color:bisque;
+    width: 13.5em;
+    height: 20em;
+    margin-bottom:30px;
+    border-radius: 20px;
+    box-shadow: silver 10px 10px 15px ;
+  
+   
+    
+}
+
+#titlecard
+{
+    text-align: center;
+    font-size: 2em;
+    color: crimson;
+   
+}
+
+#plusicon
+{
+    position: relative;
+    top:9.5em;
+    right: 0.6em;
+    cursor: pointer;
+}
+
+#deleteicon
+{
+    cursor: pointer;
+}
+
+.fa-trash-alt
+{
+    position: relative;
+    top:9.5em;
+    font-size: 1.5em;
+    left: 6em;
+}
+
+
+#item-inside
+{
+    visibility:hidden;
+    background-color:blanchedalmond;
+    width: 25em;
+    height: 13em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    box-shadow: silver 10px 10px 15px ;
+  
+ }
+
+ #additem
+ {
+     text-align: center;
+     font-size: 30px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+ }
+
+ #inputitem
+ {
+    position: relative;
+    left: 4.5em;
+    width: 20em;
+    height: 2em;
+     text-align: center;
+ }
+ #itemadd
+ {
+    position: relative;
+    top:3em;
+    left:2em;
+   width: 10em;
+   height: 2em;
+   border-radius: 1em;
+   background-color:indianred;
+   cursor: pointer;
+
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+ }
+
+ #itemclose
+ {
+    position: relative;
+    top:3em;
+    right: 2em;
+    float: right;
+    width: 10em;
+    height: 2em;
+    border-radius: 1em;
+    background-color:indianred;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ 
+ #apenditem
+ {
+  
+   
+    font-size: 1.2em;
+    
+  
+ }
+
+ #apendmark
+ {
+ margin-left: 1.5em;
+ font-size: 1.2em;
+
+ background-color:darksalmon;
+ padding: 2px;
+ border-radius: 10px;
+ cursor: pointer;
+ }
+
+ #todoitems
+ {
+     margin-top:0.5em;
+     text-align: center;
+ }
+
+ #begin
+ {
+     cursor: pointer;
+     font-size: 30px;
+    position: relative;
+    bottom:3.1em;
+}
+    
+
+
+ #back-container
+ {
+    position: relative;
+    bottom: 5em;
+    visibility: hidden;
+ }
+ #back-main
+ {
+    position: relative;
+    bottom: 1.8em; 
+    left: 1em;
+  
+ }
+
+ #holddynamic
+ {
+  text-align: center;
+  position: relative;
+  bottom: 2.5em;
+   
+ }
+
+ #container-main
+ {
+     z-index: 2000;
+ }
+ #main
+ {
+    font-size: 60px;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+
+ #main-bottom
+ {
+
+    
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+
+ #titlecard
+ {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+ }
